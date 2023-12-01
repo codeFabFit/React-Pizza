@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "lora";
 }
 
 html {
@@ -14,7 +15,7 @@ body {
   font-family: 'Roboto Mono', sans-serif;
   color: #252525;
   font-weight: 400;
-  background-color: #f7f2e9;
+  background-color: #b3a384;
   border-bottom: 1.6rem solid #edc84b;
   min-height: 100vh;
   padding: 3.2rem;
@@ -27,7 +28,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 
   align-items: center;
   gap: 4.8rem;

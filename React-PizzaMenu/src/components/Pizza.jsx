@@ -5,8 +5,9 @@ function Pizza(props) {
   return (
     <div>
         <h2>{props.name}</h2>
-        <p>{props.ingredients}</p>
         <span>{props.price}</span>
+        <p>{props.ingredients}</p>
+        
         <img src = {props.photoName} alt="" />
     </div>
   )
