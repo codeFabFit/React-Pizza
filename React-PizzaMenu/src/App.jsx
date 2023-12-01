@@ -56,8 +56,8 @@ const pizzaData = [
   return (
     <div className="container">
     <Header />
-    <Menu />
-      
+    <Menu pizzaData = {pizzaData} />
+      <Pizza />
       <Footer />
     </div>
   )

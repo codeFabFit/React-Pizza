@@ -17,12 +17,13 @@ function Footer() {
 
   return (
     <footer className='footer'>
-      {/* {new Date().toLocaleDateString()} We are currently open */}
+      {new Date().toLocaleDateString()} Come try the best pizza around
       <div className="order">
         {
             isOpen && (
                 <p>We're open until {closedHour}:00. Come visit us or order online </p>
             )
+            
         }
         <button className="btn">Order</button>
       </div>

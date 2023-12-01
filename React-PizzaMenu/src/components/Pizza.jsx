@@ -7,7 +7,7 @@ function Pizza(props) {
         <h2>{props.name}</h2>
         <p>{props.ingredients}</p>
         <span>{props.price}</span>
-        <img src = {props.photoName} alt="focaccia" />
+        <img src = {props.photoName} alt="" />
     </div>
   )
 }
